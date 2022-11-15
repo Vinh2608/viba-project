@@ -1,3 +1,8 @@
+import sys
+import os
+
+SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+sys.path.append(os.path.dirname(SCRIPT_DIR))
 from GraphTranslation.services.base_service import BaseServiceSingleton
 from GraphTranslation.pipeline.translation import TranslationPipeline, Languages, TranslationGraph
 from pipeline.model_translate import ModelTranslator
@@ -123,4 +128,4 @@ class Translator(BaseServiceSingleton):
 
 if __name__ == "__main__":
     translator = Translator()
-    print(translator("xin chào, tôi là sinh viên đại học Bách Khoa"))
+    print(translator("Làng Kon Drunch."))
