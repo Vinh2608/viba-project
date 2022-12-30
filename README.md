@@ -11,4 +11,4 @@
     >python app.py
 * The model type that we run: BART_CHUNK
 
-If you want to run the files in the Kriem_vi folder, which contains all the Vietnamese text files, you can run the sendtextfile.py file and input the approriate Kriem_vi file name in the "file_name_vi" variable on line 16.
+* If you want to run the files in the Kriem_vi folder, which contains all the Vietnamese text files, you can run the sendtextfile.py file and input the approriate Kriem_vi file name in the "file_name_vi" variable on line 16. The resulting model translation file is in Kriem_result folder with the matching file name as the Kriem_vi file's name. You can adjust the format of the result file in line 31 of the sendtextfile.py
