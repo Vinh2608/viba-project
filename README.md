@@ -1,7 +1,8 @@
 # BARTViBa
 
 # HOW TO
-
+* Clone our github repository.
+* Use branch translation_v1 only
 * The current best model is aligned_bartpho model, the checkpoint is stored at: https://drive.google.com/drive/folders/10M4l95A7ImxfSPtV8JzAWNm5ytrUwOgC?usp=sharing 
 * This repository has already embedded the checkpoint in the folder "pretrained". 
 * First: Start VNCoreNLP server at:
